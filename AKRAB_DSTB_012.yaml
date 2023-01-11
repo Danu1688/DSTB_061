@@ -1,4 +1,238 @@
 proxies:
+- name: danuMultiSvr01a-IP34
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-qword3.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-qword3.sshpremium.my.id
+- name: danuMultiSvr01a-SNIa
+  type: trojan
+  server: id-qword3.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01a-SNIb
+  type: trojan
+  server: id-qword3.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuMultiSvr01a-Identrust
+  type: trojan
+  server: crl.identrust.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-qword3.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-qword3.sshpremium.my.id
+- name: danuMultiSvr01a-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-qword3.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-qword3.sshpremium.my.id
+- name: danuMultiSvr01a
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-qword3.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-qword3.sshpremium.my.id
+- name: danuMultiSvr01b-IP34
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-beon.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-beon.sshpremium.my.id
+- name: danuMultiSvr01b-SNIa
+  type: trojan
+  server: id-beon.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01b-SNIb
+  type: trojan
+  server: id-beon.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuMultiSvr01b-Identrust
+  type: trojan
+  server: crl.identrust.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-beon.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-beon.sshpremium.my.id
+- name: danuMultiSvr01b-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-beon.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-beon.sshpremium.my.id
+- name: danuMultiSvr01b
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: id-beon.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id-beon.sshpremium.my.id
+- name: danuMultiSvr01c-IP34
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuMultiSvr01c-SNIa
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacecontent-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacecontent-cf.zoom.us
+- name: danuMultiSvr01c-SNIb
+  type: trojan
+  server: sg-ctn.sshpremium.my.id
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: gomarketplacefront-cf.zoom.us
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: gomarketplacefront-cf.zoom.us
+- name: danuMultiSvr01c-Identrust
+  type: trojan
+  server: crl.identrust.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuMultiSvr01c-Midtrans
+  type: trojan
+  server: midtrans.com
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuMultiSvr01c
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 599f239a-8404-4fc7-980d-962e8c77cf07
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
 - name: danuWs12-IP34
   type: trojan
   server: 172.67.199.34
