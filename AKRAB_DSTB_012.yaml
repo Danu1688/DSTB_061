@@ -40,7 +40,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id
 - name: danuWs12-Vision+D
   type: trojan
-  server: www.visionplus.id
+  server: 104.18.20.94
   port: 443
   password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
   udp: true
