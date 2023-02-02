@@ -40,7 +40,7 @@ proxies:
       Host: sg-do2.sshpremium.my.id
 - name: danuWs12-Vision+D
   type: trojan
-  server: 104.18.20.94
+  server: cdnodeb.visionplus.id
   port: 443
   password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
   udp: true
@@ -64,29 +64,4 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-do2.sshpremium.my.id
-- name: danuWs12-Vision+F
-  type: trojan
-  server: cdn.appsflyer.com
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
-- name: danuWs12-Vision+G
-  type: trojan
-  server: api.onesignal.com
-  port: 443
-  password: b6ff995c-aa70-4f6d-895c-6cf62960bc88
-  udp: true
-  sni: sg-do2.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: sg-do2.sshpremium.my.id
+
