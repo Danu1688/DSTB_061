@@ -1,4 +1,69 @@
 proxies:
+- name: DanuJuragan01_BizzNet_A
+  type: trojan
+  server: cdnodeb.visionplus.id
+  port: 443
+  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
+  udp: true
+  sni: trojanws-biz2.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-biz2.vpsme.my.id
+- name: DanuJuragan01_BizzNet_B
+  type: trojan
+  server: stream.visionplus.id
+  port: 443
+  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
+  udp: true
+  sni: trojanws-biz2.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-biz2.vpsme.my.id
+- name: DanuJuragan01_BizzNet_C
+  type: trojan
+  server: 104.21.235.171
+  port: 443
+  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
+  udp: true
+  sni: trojanws-biz2.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-biz2.vpsme.my.id
+- name: DanuJuragan01_BizzNet_D
+  type: trojan
+  server: api.visionplus.id
+  port: 443
+  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
+  udp: true
+  sni: trojanws-biz2.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-biz2.vpsme.my.id
+- name: DanuJuragan01_BizzNet_E
+  type: trojan
+  server: visionplus.id
+  port: 443
+  password: d0605b28-cc8c-41df-9c89-b18ffdd0006c
+  udp: true
+  sni: trojanws-biz2.vpsme.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sweetws
+    headers:
+      Host: trojanws-biz2.vpsme.my.id
 - name: danuWs05-Vision+A
   type: trojan
   server: 104.21.235.171
